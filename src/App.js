@@ -17,11 +17,26 @@ async function loadMainData() {
 
 function App() {
 
+
   async function chpok(id){
     let elem = document.getElementById(id); 
-    let state = elem.style.display; 
-    if (state =='') elem.style.display='none'; 
-    else elem.style.display=''; 
+    let state = elem.className; 
+    //elem.className='share_show'
+    if (state =='share_show')
+     elem.className='share_hide'; 
+    else elem.className='share_show'; 
+    // let elem = document.getElementById(id);
+    
+    // if ( elem.classList.contains('hide') )
+    // {
+    //   elem.classList.remove('hide');
+    //   elem.classList.add('show' );
+    // }
+    // else
+    // {
+    //   elem.classList.add('hide');
+    //   elem.classList.remove('show');
+    // }
   } 
   
   function But (){

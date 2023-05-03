@@ -394,4 +394,27 @@ body { font-family: 'Work Sans', sans-serif;
       font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
     }
+
+
+.share_hide
+{
+  animation:textt 2s ease forwards;
+}
+
+@keyframes textt 
+{
+  from { opacity: 1;}
+  to {opacity: 0;}
+}
+
+.share_show
+{
+  animation:texttt 2s ease forwards;
+}
+
+@keyframes texttt 
+{
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
         

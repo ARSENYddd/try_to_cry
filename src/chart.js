@@ -109,7 +109,7 @@ function Сhart(){
 
 
 return (
-  <div id="1" className="App">
+  <div id="1" className="share_show">
     <header className="App-header">
 
       <svg id="chart" ref={svgRef} viewBox="0 0 500 150">
