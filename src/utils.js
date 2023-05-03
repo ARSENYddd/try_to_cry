@@ -11,7 +11,7 @@ async function chpok(id){
     else elem.style.display=''; 
 } 
 
-function But (){
+export function But (){
     const k =<div><button onClick={() => (chpok(1))}>Random counts</button></div>
 
     return k;

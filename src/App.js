@@ -16,29 +16,6 @@ async function loadMainData() {
 }
 
 function App() {
-//   let initialData = [{
-//     name:  "Og",
-//     value: 15,
-//   },
-//   {
-//     name:  "Oleeg",
-//     value: 14,
-//   },
-//   {
-//     name:  "Olg",
-//     value: 8,
-//   },
-//   {
-//     name:  "Oleg",
-//     value: 5,
-//   }]
-  // let initialData = [];
-  // init();
-
-  // async function init(){
-  //   initialData = await loadMainData();
-  //   console.log(initialData);
-  // }
 
   async function chpok(id){
     let elem = document.getElementById(id); 
@@ -55,8 +32,8 @@ function App() {
 
 	function render() {
     return [
-      But(),
-      Chart(),
+      <But/>,
+      <Chart/>,
     ];
   }
 
